@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: fivem-audit-starter
+    runtime: python
+    buildCommand: ""
+    startCommand: python api/audit_api.py --host 0.0.0.0
+    envVars:
+      - key: AUDIT_SECRET
+        generateValue: true
