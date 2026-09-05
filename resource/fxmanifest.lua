@@ -1,0 +1,8 @@
+fx_version 'cerulean'
+game 'gta5'
+author 'Server administrator'
+description 'Opt-in FiveM audit companion resource'
+version '0.1.0'
+shared_script 'config.lua'
+client_script 'client.lua'
+server_script 'server.lua'

@@ -1,0 +1,3 @@
+Config = {}
+Config.apiBaseUrl = 'https://audit.example.com'
+Config.serverSecret = 'REPLACE_WITH_A_LONG_RANDOM_SECRET'
